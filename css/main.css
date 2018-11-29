@@ -1,0 +1,50 @@
+html {
+  background-color: #f2f2f2;
+  font-family: 'Montserrat', sans-serif;
+}
+
+header {
+  background-color: #364c5a;
+}
+
+nav {
+  background-color: #364c5a;
+}
+
+a {
+  color: #f2f2f2;
+  text-decoration: none;
+}
+
+a.nav:hover {
+  background-color: #f2f2f2;
+  border-radius: 6px;
+  color: #364c5a;
+}
+
+.index-banner {
+  background-image: url("../images/otter1.jpg");
+  min-height: 200px;
+  background-size: cover;
+  background-position: 50% 0%;
+}
+
+.resuce-banner {
+  background-image: url("../images/otter2.jpg");
+  min-height: 200px;
+  background-size: cover;
+  background-position: 63% 0%;
+}
+
+.adopt-banner {
+  background-image: url("../images/otter3.jpg");
+  min-height: 200px;
+  background-size: cover;
+  background-position: 50% 0%;
+}
+
+.banner-text {
+  border-radius: 6px;
+  color: #f2f2f2;
+  min-width: 250px;
+}
