@@ -48,3 +48,36 @@ a.nav:hover {
   color: #f2f2f2;
   min-width: 250px;
 }
+
+.bottom-img {
+  background-image: url("../images/otter4.jpg");
+  min-height: 200px;
+  background-size: cover;
+  background-position: 50% 0%;
+}
+
+.bottom-text p {
+  background-color: rgba(54, 76, 90, .75);
+  color: #f2f2f2;
+}
+
+.btn-ghost {
+  background-color: #364c5a;
+  color: #f2f2f2;
+  border-color: #364c5a;
+}
+
+.btn-ghost:hover {
+  background-color: #f2f2f2;
+  color: #364c5a;
+  border-color: #364c5a;
+}
+
+footer {
+  background-color: #364c5a;
+  color: #f2f2f2;
+}
+
+.svg {
+  fill: #f2f2f2;
+}
