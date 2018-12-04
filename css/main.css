@@ -1,6 +1,6 @@
 html {
   background-color: #f2f2f2;
-  font-family: "Montserrat", sans-serif;
+  font-family: Montserrat, sans-serif;
 }
 
 header {
@@ -9,6 +9,20 @@ header {
 
 nav {
   background-color: #364c5a;
+  display: none;
+}
+
+.nav-check:checked ~ .nav {
+  display: block;
+}
+
+.nav-check {
+  position: absolute;
+  top: -3em;
+}
+
+.nav-check:checked ~ .nav-label {
+  background-color: grey;
 }
 
 a {
