@@ -7,6 +7,10 @@ header {
   background-color: #364c5a;
 }
 
+nav:hover {
+  background-color: #fff;
+}
+
 .nav {
   margin: 0;
   padding: 0;
@@ -17,7 +21,7 @@ header {
 
 .nav a {
   display: block;
-  padding: 0.5em;
+  padding: .5em;
   text-decoration: none;
   color: #000;
 }
