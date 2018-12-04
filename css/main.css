@@ -7,13 +7,24 @@ header {
   background-color: #364c5a;
 }
 
-nav {
-  background-color: #364c5a;
+.nav {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  background-color: #ccc;
   display: none;
 }
 
-.nav-check:checked ~ .nav {
+.nav a {
   display: block;
+  padding: 0.5em;
+  text-decoration: none;
+  color: #000;
+}
+
+.nav a:hover {
+  background-color: #333;
+  color: #fff;
 }
 
 .nav-check {
@@ -21,8 +32,39 @@ nav {
   top: -3em;
 }
 
+.nav-check:checked ~ .nav {
+  display: block;
+}
+
+.nav-label {
+  cursor: pointer;
+  display: inline-block;
+  width: 40px;
+  position: absolute;
+  right: 0;
+  top: -1.5em;
+}
+
+.nav-open,
+.nav-close {
+  display: block;
+  width: 100%;
+}
+
 .nav-check:checked ~ .nav-label {
-  background-color: grey;
+  background-color: #ccc;
+}
+
+.nav-close {
+  display: none;
+}
+
+.nav-check:checked ~ .nav-label .nav-open {
+  display: none;
+}
+
+.nav-check:checked ~ .nav-label .nav-close {
+  display: block;
 }
 
 a {
