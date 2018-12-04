@@ -60,9 +60,62 @@
     </div>
     <div class="form">
       <h2>Apply To Be a Foster</h2>
-      <!-- place form here -->
-      <p>form placeholder at least 10 fields</p>
-      <a class="btn btn-ghost island-1-4 push-1-2" href="sumbit">Submit!</a>
+      <form class="push-0" method="POST" action="https://formspree.io/sand0274@algonquinlive.com">
+          <div class="grid">
+            <div class="push unit xs-1 s-1 m-1-2 l-1-3 gutter-1-4">
+              <label for="name">Name</label>
+              <input id="name" name="name" required>
+            </div>
+            <div class="push unit xs-1 s-1 m-1-2 l-1-3 gutter-1-4">
+              <label for="age">Date of Birth</label>
+              <input id="age" name="age" type="date" required>
+            </div>
+            <div class="push unit xs-1 s-1 m-1-2 l-1-3 gutter-1-4">
+              <label for="email">Email</label>
+              <input id="email" type="email" placeholder="me@me.com" name="email" required aria-label="me@me.com">
+            </div>
+            <div class="push unit xs-1 s-1 m-1-2 l-1-3 gutter-1-4">
+              <label for="address">Address</label>
+              <input id="address" type="address" name="address" required>
+            </div>
+            <div class="push unit xs-1 s-1 m-1-2 l-1-3 gutter-1-4">
+              <label for="fosterexpirence">Have you ever fostered before</label>
+              <select id="fosterexpirence" name="fosterexpirence">
+                <option>Yes</option>
+                <option>No</option>
+              </select>
+            </div>
+            <div class="push unit xs-1 s-1 m-1-2 l-1-3 gutter-1-4">
+              <label for="expirence">Past Expirence with pets</label>
+              <input id="expirence" type="textbox" name="expirence">
+            </div>
+            <div class="push unit xs-1 s-1 m-1-2 l-1-3 gutter-1-4">
+              <label for="ottexpirence">Past Expirence with otters</label>
+              <input id="ottexpirence" type="textbox" name="ottexpirence">
+            </div>
+            <div class="push unit xs-1 s-1 m-1-2 l-1-3 gutter-1-4">
+              <label for="gift">Select a gift</label>
+              <select id="gift" name="gift">
+                <option>Mug with your otters face</option>
+                <option>A blanket with the otters face</option>
+                <option>A Freedom Otter Rescue tshirt</option>
+                <option>Otter shaped chocolates</option>
+              </select>
+            </div>
+            <div class="push unit xs-1 s-1 m-1-2 l-1-3 gutter-1-4">
+              <label for="otter">Select your otter</label>
+              <select id="otter" name="gift">
+                <option>Micheal</option>
+                <option>Jessica</option>
+                <option>Spork</option>
+                <option>Medusa</option>
+              </select>
+            </div>
+            <div class="text-center push unit xs-1 s-1 m-1 l-1 gutter-1-4">
+              <button class="btn btn-ghost mega" type="submit">Submit!</button>
+            </div>
+          </div>
+        </form>
     </div>
   </main>
 
