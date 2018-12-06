@@ -44,7 +44,7 @@ a.nav:hover {
   background-image: url("../images/otter3.jpg");
   min-height: 200px;
   background-size: cover;
-  background-position: 50% 0%;
+  background-position: 0% 50%;
 }
 
 .banner-text {
@@ -115,7 +115,7 @@ footer {
 
 }
 
-@media only screen and (min-width: 760px) {
+@media only screen and (min-width: 47.5em) {
 
   .index-banner {
     min-height: 350px;
@@ -133,7 +133,7 @@ footer {
 
 @media only screen and (min-width: 60em) {
 
-.index-banner {
+  .index-banner {
     min-height: 450px;
   }
 
