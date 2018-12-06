@@ -7,68 +7,12 @@ header {
   background-color: #364c5a;
 }
 
-nav:hover {
-  background-color: #fff;
+h1 {
+  width: 300px;
 }
 
-.nav {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-  background-color: #ccc;
-  display: none;
-}
-
-.nav a {
-  display: block;
-  padding: .5em;
-  text-decoration: none;
-  color: #000;
-}
-
-.nav a:hover {
-  background-color: #333;
-  color: #fff;
-}
-
-.nav-check {
-  position: absolute;
-  top: -3em;
-}
-
-.nav-check:checked ~ .nav {
-  display: block;
-}
-
-.nav-label {
-  cursor: pointer;
-  display: inline-block;
-  width: 40px;
-  position: absolute;
-  right: 0;
-  top: -1.5em;
-}
-
-.nav-open,
-.nav-close {
-  display: block;
-  width: 100%;
-}
-
-.nav-check:checked ~ .nav-label {
-  background-color: #ccc;
-}
-
-.nav-close {
-  display: none;
-}
-
-.nav-check:checked ~ .nav-label .nav-open {
-  display: none;
-}
-
-.nav-check:checked ~ .nav-label .nav-close {
-  display: block;
+nav {
+  color: #f2f2f2;
 }
 
 a {
@@ -86,7 +30,7 @@ a.nav:hover {
   background-image: url("../images/otter1.jpg");
   min-height: 200px;
   background-size: cover;
-  background-position: 50% 0%;
+  background-position: 50% 50%;
 }
 
 .rescues-banner {
@@ -113,7 +57,11 @@ a.nav:hover {
   background-image: url("../images/otter4.jpg");
   min-height: 200px;
   background-size: cover;
-  background-position: 50% 0%;
+  background-position: 50% 100%;
+}
+
+.bottom-img-text {
+  width: 320px;
 }
 
 .bottom-text p {
@@ -149,4 +97,52 @@ footer {
 
 .svg {
   fill: #f2f2f2;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .index-banner {
+    min-height: 300px;
+  }
+
+  .rescues-banner {
+    min-height: 300px;
+  }
+
+  .adopt-banner {
+    min-height: 300px;
+  }
+
+}
+
+@media only screen and (min-width: 760px) {
+
+  .index-banner {
+    min-height: 350px;
+  }
+
+  .rescues-banner {
+    min-height: 350px;
+  }
+
+  .adopt-banner {
+    min-height: 350px;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+.index-banner {
+    min-height: 450px;
+  }
+
+  .rescues-banner {
+    min-height: 450px;
+  }
+
+  .adopt-banner {
+    min-height: 450px;
+  }
+
 }
