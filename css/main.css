@@ -7,10 +7,6 @@ header {
   background-color: #364c5a;
 }
 
-h1 {
-  width: 300px;
-}
-
 nav {
   color: #f2f2f2;
 }
@@ -51,6 +47,9 @@ a.nav:hover {
   border-radius: 6px;
   color: #f2f2f2;
   min-width: 250px;
+  width: 100%;
+  left: 50%
+  transform: translateX(-50%);
 }
 
 .bottom-img {
